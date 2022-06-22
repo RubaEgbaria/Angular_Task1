@@ -1,0 +1,21 @@
+<div class="container p-5 my-5 bg-dark text-white">
+  <h1> Task one is running</h1>
+  <h4> receivedData: <span class="text-success">{{ counterLocalValue }}</span></h4>
+  <app-counter [maxValue]="15" [counterLocalValue] = '9' (sendCount)="counterChanged($event)"> </app-counter>
+  <br>
+  <div class="alert alert-dark">
+    <strong> FYI : <BR>  </strong>
+     MAX Value is 15 <br>
+     Min Value is 2
+  </div>
+</div>
+
+<div class="container p-5 my-5 bg-dark text-white">
+  <h2> Pipe </h2>
+<p> {{ 'TO LOWER CASE USING PIPE (ORIGINALY it is uppercase)' | taskPipe:'lowercase' }}</p>
+<p> {{ 'to upper case using pipe (originaly it is lowercase)' | taskPipe:'uppercase' }}</p>
+<p> {{ 'some random input' | taskPipe:'upperfefecase' }}</p>
+<p> {{ 'no condition selected' | taskPipe }}</p>
+
+</div>
+
