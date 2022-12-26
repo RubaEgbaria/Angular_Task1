@@ -25,7 +25,7 @@ colored red.</li>
 <li>When the counter value is between minValue and maxValue (inclusive), 
 counterLocalValue should be colored green.</li>
 </ol>
-<img src="TASK_1_PIC">
+<img src="TASK_1_PIC.jpeg">
 
 <h3> Part 3: </h3>
 <ol>
